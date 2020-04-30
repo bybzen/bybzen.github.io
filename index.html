@@ -9,11 +9,43 @@
 </head>
 
 <body>
-    <h1>
-    <div style="text-align: center;background-color: #330066;color: #00FF33;"><h1>My Profile</h1></div>
-    </h1>
-    <div class="centered">
+    <table>
+        <tr style="text-align: center;">
+            <th><a>
+                <div class="menu"><p>Date<br>29 Apr 2020 <br></div>
+                </p>
+                </a>
+            </th>
+            <th><a>
+                <div class="menu"><p>Date<br>2 May 2020 <br></div>
+                </p>
+                </a>
+            </th>
+            <th><a>
+                <div class="menu"><p>Date<br>9 May 2020 <br></div>
+                </p>
+                </a>
+            </th>
+            <th><a>
+                <div class="menu"><p>Date<br>16 May 2020 <br></div>
+                </p>
+                </a>
+            </th>
+            <th><a>
+                <div class="menu"><p>Date<br>24 May 2020 <br></div>
+                </p>
+                </a>
+            </th>
+        </tr>
 
+    </table>
+    <h1>
+    <div class="head">
+        <h1>My Profile</h1>
+    </div>
+    </h1>
+    
+    <div class="centered">
     <img class="picProfile"src="./img/23029.jpg">
     <table class="infoTable">
 
@@ -41,11 +73,8 @@
         <tr>
             <th class="topic">Instagram:</th>
             <td>bybzen</td>
-        </tr>
-
-        <tr>
             <th class="topic">Hobbies:</th>
-            <td>Play Rov, sleep</td>
+            <td>play Rov</td>
         </tr>
 
         <tr>
@@ -57,20 +86,49 @@
             <th class="topic">University:</th>
             <td>Kasetsart University</td>
         </tr>
-        
+
+        <tr>
+            <th>จุดเด่นด้านprogramming:</th>
+            <td class="word_th">จะคอยเช็คเงื่อนและผลลัพธ์ตลอดว่าเป็นไปตามที่ต้องการไหม</td>
+        </tr>
+        <tr>
+            <th>จุดเด่นด้านทั่วไป:</th>
+            <td class="word_th">เป็นคนเข้ากับคนอื่นได้ง่าย</td>
+        </tr>
     </table>
     </div>
 
     <style>
+       
+        .menu{
+            background-color: rgb(17, 11, 4);
+            font-size: 22px;
+            margin-left: 20px;
+            margin-right: 50px;
+            height: 80px; 
+            width: 200px; 
+            font-family: monospace;
+            color: #FFA500;
+        }
+        .head{
+            text-align: center; background-color: #330066;color: #00FF33;
+            margin-top: -55px;
+            
+        }
+        .word_th{
+            font-size: 16px;
+            padding: 15px;
+            
+        }
         .centered{
         position: absolute;
-        background-color: #FFCC33;
+        background-color: #131113;
         width: 820px;
-        height: 580px;
-        top: 18%;
+        height: 660px;
+        top: 29%;
         left: 22%;
         
-        box-shadow: 8px 2px 8px #FF9933;
+        box-shadow: 4px 2px 8px 4px  #FF9933;
         text-align: center;
         }
 
@@ -83,8 +141,9 @@
         
         }
         .topic{
-            padding: 10px;
+            padding: 15px;
             text-align: center;
+            
         }
         .infoTable{
             margin-top: 10px;
@@ -96,9 +155,10 @@
             text-align: center;
             font-family: monospace;
             font-size: 17px;
+            color:  #FFFF00;
         }
         body{
-            background-color: #9900CC;
+            background-color: #CC00FF;
         }
         .centered:hover{
             transition: all 0.25;
